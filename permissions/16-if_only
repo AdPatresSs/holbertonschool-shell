@@ -1,2 +1,2 @@
 #!/bin/bash
-if ls -l hello | grep -q "guillaume"; then chown vincent hello; fi
+chown if [ls -l hello  u=guillaume] then chown vincent hello
